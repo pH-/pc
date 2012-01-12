@@ -1,0 +1,359 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F029ED314BF6F0F00213341 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F029ED214BF6F0F00213341 /* UIKit.framework */; };
+		1F029ED514BF6F0F00213341 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F029ED414BF6F0F00213341 /* Foundation.framework */; };
+		1F029ED714BF6F0F00213341 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F029ED614BF6F0F00213341 /* CoreGraphics.framework */; };
+		1F029EDD14BF6F0F00213341 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1F029EDB14BF6F0F00213341 /* InfoPlist.strings */; };
+		1F029EDF14BF6F0F00213341 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F029EDE14BF6F0F00213341 /* main.m */; };
+		1F029EE314BF6F0F00213341 /* PLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F029EE214BF6F0F00213341 /* PLAppDelegate.m */; };
+		1F029F0014BF6F7400213341 /* customSeguePopper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F029EEA14BF6F7400213341 /* customSeguePopper.m */; };
+		1F029F0114BF6F7400213341 /* customSeguePusher.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F029EEC14BF6F7400213341 /* customSeguePusher.m */; };
+		1F029F0214BF6F7400213341 /* dataHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F029EEE14BF6F7400213341 /* dataHandler.m */; };
+		1F029F0314BF6F7400213341 /* demographicsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F029EF014BF6F7400213341 /* demographicsViewController.m */; };
+		1F029F0414BF6F7400213341 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1F029EF214BF6F7400213341 /* InfoPlist.strings */; };
+		1F029F0514BF6F7400213341 /* newChiefComplaintController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F029EF514BF6F7400213341 /* newChiefComplaintController.m */; };
+		1F029F0614BF6F7400213341 /* newInsuranceDetailsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F029EF714BF6F7400213341 /* newInsuranceDetailsController.m */; };
+		1F029F0714BF6F7400213341 /* newNameDetailsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F029EF914BF6F7400213341 /* newNameDetailsController.m */; };
+		1F029F0814BF6F7400213341 /* patientLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F029EFB14BF6F7400213341 /* patientLoginViewController.m */; };
+		1F029F0914BF6F7400213341 /* PLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F029EFD14BF6F7400213341 /* PLViewController.m */; };
+		1F029F0A14BF6F7400213341 /* staffLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F029EFF14BF6F7400213341 /* staffLoginViewController.m */; };
+		1F029F0D14BF6FC600213341 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F029F0B14BF6FC600213341 /* MainStoryboard_iPad.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1F029ECE14BF6F0F00213341 /* PatientCheckin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PatientCheckin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F029ED214BF6F0F00213341 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1F029ED414BF6F0F00213341 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1F029ED614BF6F0F00213341 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1F029EDA14BF6F0F00213341 /* PatientCheckin-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PatientCheckin-Info.plist"; sourceTree = "<group>"; };
+		1F029EDC14BF6F0F00213341 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1F029EDE14BF6F0F00213341 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1F029EE014BF6F0F00213341 /* PatientCheckin-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PatientCheckin-Prefix.pch"; sourceTree = "<group>"; };
+		1F029EE114BF6F0F00213341 /* PLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PLAppDelegate.h; sourceTree = "<group>"; };
+		1F029EE214BF6F0F00213341 /* PLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PLAppDelegate.m; sourceTree = "<group>"; };
+		1F029EE914BF6F7400213341 /* customSeguePopper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = customSeguePopper.h; path = PatientCheckin/customSeguePopper.h; sourceTree = "<group>"; };
+		1F029EEA14BF6F7400213341 /* customSeguePopper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = customSeguePopper.m; path = PatientCheckin/customSeguePopper.m; sourceTree = "<group>"; };
+		1F029EEB14BF6F7400213341 /* customSeguePusher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = customSeguePusher.h; path = PatientCheckin/customSeguePusher.h; sourceTree = "<group>"; };
+		1F029EEC14BF6F7400213341 /* customSeguePusher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = customSeguePusher.m; path = PatientCheckin/customSeguePusher.m; sourceTree = "<group>"; };
+		1F029EED14BF6F7400213341 /* dataHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = dataHandler.h; path = PatientCheckin/dataHandler.h; sourceTree = "<group>"; };
+		1F029EEE14BF6F7400213341 /* dataHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = dataHandler.m; path = PatientCheckin/dataHandler.m; sourceTree = "<group>"; };
+		1F029EEF14BF6F7400213341 /* demographicsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = demographicsViewController.h; path = PatientCheckin/demographicsViewController.h; sourceTree = "<group>"; };
+		1F029EF014BF6F7400213341 /* demographicsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = demographicsViewController.m; path = PatientCheckin/demographicsViewController.m; sourceTree = "<group>"; };
+		1F029EF314BF6F7400213341 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
+		1F029EF414BF6F7400213341 /* newChiefComplaintController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = newChiefComplaintController.h; path = PatientCheckin/newChiefComplaintController.h; sourceTree = "<group>"; };
+		1F029EF514BF6F7400213341 /* newChiefComplaintController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = newChiefComplaintController.m; path = PatientCheckin/newChiefComplaintController.m; sourceTree = "<group>"; };
+		1F029EF614BF6F7400213341 /* newInsuranceDetailsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = newInsuranceDetailsController.h; path = PatientCheckin/newInsuranceDetailsController.h; sourceTree = "<group>"; };
+		1F029EF714BF6F7400213341 /* newInsuranceDetailsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = newInsuranceDetailsController.m; path = PatientCheckin/newInsuranceDetailsController.m; sourceTree = "<group>"; };
+		1F029EF814BF6F7400213341 /* newNameDetailsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = newNameDetailsController.h; path = PatientCheckin/newNameDetailsController.h; sourceTree = "<group>"; };
+		1F029EF914BF6F7400213341 /* newNameDetailsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = newNameDetailsController.m; path = PatientCheckin/newNameDetailsController.m; sourceTree = "<group>"; };
+		1F029EFA14BF6F7400213341 /* patientLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = patientLoginViewController.h; path = PatientCheckin/patientLoginViewController.h; sourceTree = "<group>"; };
+		1F029EFB14BF6F7400213341 /* patientLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = patientLoginViewController.m; path = PatientCheckin/patientLoginViewController.m; sourceTree = "<group>"; };
+		1F029EFC14BF6F7400213341 /* PLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PLViewController.h; path = PatientCheckin/PLViewController.h; sourceTree = "<group>"; };
+		1F029EFD14BF6F7400213341 /* PLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PLViewController.m; path = PatientCheckin/PLViewController.m; sourceTree = "<group>"; };
+		1F029EFE14BF6F7400213341 /* staffLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = staffLoginViewController.h; path = PatientCheckin/staffLoginViewController.h; sourceTree = "<group>"; };
+		1F029EFF14BF6F7400213341 /* staffLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = staffLoginViewController.m; path = PatientCheckin/staffLoginViewController.m; sourceTree = "<group>"; };
+		1F029F0C14BF6FC600213341 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = PatientCheckin/en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F029ECB14BF6F0F00213341 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F029ED314BF6F0F00213341 /* UIKit.framework in Frameworks */,
+				1F029ED514BF6F0F00213341 /* Foundation.framework in Frameworks */,
+				1F029ED714BF6F0F00213341 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F029EC314BF6F0F00213341 = {
+			isa = PBXGroup;
+			children = (
+				1F029EE914BF6F7400213341 /* customSeguePopper.h */,
+				1F029EEA14BF6F7400213341 /* customSeguePopper.m */,
+				1F029EEB14BF6F7400213341 /* customSeguePusher.h */,
+				1F029EEC14BF6F7400213341 /* customSeguePusher.m */,
+				1F029EED14BF6F7400213341 /* dataHandler.h */,
+				1F029EEE14BF6F7400213341 /* dataHandler.m */,
+				1F029EEF14BF6F7400213341 /* demographicsViewController.h */,
+				1F029EF014BF6F7400213341 /* demographicsViewController.m */,
+				1F029EF114BF6F7400213341 /* en.lproj */,
+				1F029EF414BF6F7400213341 /* newChiefComplaintController.h */,
+				1F029EF514BF6F7400213341 /* newChiefComplaintController.m */,
+				1F029EF614BF6F7400213341 /* newInsuranceDetailsController.h */,
+				1F029EF714BF6F7400213341 /* newInsuranceDetailsController.m */,
+				1F029EF814BF6F7400213341 /* newNameDetailsController.h */,
+				1F029EF914BF6F7400213341 /* newNameDetailsController.m */,
+				1F029EFA14BF6F7400213341 /* patientLoginViewController.h */,
+				1F029EFB14BF6F7400213341 /* patientLoginViewController.m */,
+				1F029EFC14BF6F7400213341 /* PLViewController.h */,
+				1F029EFD14BF6F7400213341 /* PLViewController.m */,
+				1F029EFE14BF6F7400213341 /* staffLoginViewController.h */,
+				1F029EFF14BF6F7400213341 /* staffLoginViewController.m */,
+				1F029ED814BF6F0F00213341 /* PatientCheckin */,
+				1F029ED114BF6F0F00213341 /* Frameworks */,
+				1F029ECF14BF6F0F00213341 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1F029ECF14BF6F0F00213341 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F029ECE14BF6F0F00213341 /* PatientCheckin.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F029ED114BF6F0F00213341 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1F029ED214BF6F0F00213341 /* UIKit.framework */,
+				1F029ED414BF6F0F00213341 /* Foundation.framework */,
+				1F029ED614BF6F0F00213341 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1F029ED814BF6F0F00213341 /* PatientCheckin */ = {
+			isa = PBXGroup;
+			children = (
+				1F029EE114BF6F0F00213341 /* PLAppDelegate.h */,
+				1F029EE214BF6F0F00213341 /* PLAppDelegate.m */,
+				1F029ED914BF6F0F00213341 /* Supporting Files */,
+			);
+			path = PatientCheckin;
+			sourceTree = "<group>";
+		};
+		1F029ED914BF6F0F00213341 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1F029EDA14BF6F0F00213341 /* PatientCheckin-Info.plist */,
+				1F029EDB14BF6F0F00213341 /* InfoPlist.strings */,
+				1F029EDE14BF6F0F00213341 /* main.m */,
+				1F029EE014BF6F0F00213341 /* PatientCheckin-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1F029EF114BF6F7400213341 /* en.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				1F029F0B14BF6FC600213341 /* MainStoryboard_iPad.storyboard */,
+				1F029EF214BF6F7400213341 /* InfoPlist.strings */,
+			);
+			name = en.lproj;
+			path = PatientCheckin/en.lproj;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F029ECD14BF6F0F00213341 /* PatientCheckin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F029EE614BF6F0F00213341 /* Build configuration list for PBXNativeTarget "PatientCheckin" */;
+			buildPhases = (
+				1F029ECA14BF6F0F00213341 /* Sources */,
+				1F029ECB14BF6F0F00213341 /* Frameworks */,
+				1F029ECC14BF6F0F00213341 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PatientCheckin;
+			productName = PatientCheckin;
+			productReference = 1F029ECE14BF6F0F00213341 /* PatientCheckin.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F029EC514BF6F0F00213341 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 1F029EC814BF6F0F00213341 /* Build configuration list for PBXProject "PatientCheckin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1F029EC314BF6F0F00213341;
+			productRefGroup = 1F029ECF14BF6F0F00213341 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F029ECD14BF6F0F00213341 /* PatientCheckin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F029ECC14BF6F0F00213341 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F029EDD14BF6F0F00213341 /* InfoPlist.strings in Resources */,
+				1F029F0414BF6F7400213341 /* InfoPlist.strings in Resources */,
+				1F029F0D14BF6FC600213341 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F029ECA14BF6F0F00213341 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F029EDF14BF6F0F00213341 /* main.m in Sources */,
+				1F029EE314BF6F0F00213341 /* PLAppDelegate.m in Sources */,
+				1F029F0014BF6F7400213341 /* customSeguePopper.m in Sources */,
+				1F029F0114BF6F7400213341 /* customSeguePusher.m in Sources */,
+				1F029F0214BF6F7400213341 /* dataHandler.m in Sources */,
+				1F029F0314BF6F7400213341 /* demographicsViewController.m in Sources */,
+				1F029F0514BF6F7400213341 /* newChiefComplaintController.m in Sources */,
+				1F029F0614BF6F7400213341 /* newInsuranceDetailsController.m in Sources */,
+				1F029F0714BF6F7400213341 /* newNameDetailsController.m in Sources */,
+				1F029F0814BF6F7400213341 /* patientLoginViewController.m in Sources */,
+				1F029F0914BF6F7400213341 /* PLViewController.m in Sources */,
+				1F029F0A14BF6F7400213341 /* staffLoginViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1F029EDB14BF6F0F00213341 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F029EDC14BF6F0F00213341 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1F029EF214BF6F7400213341 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F029EF314BF6F7400213341 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1F029F0B14BF6FC600213341 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F029F0C14BF6FC600213341 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1F029EE414BF6F0F00213341 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		1F029EE514BF6F0F00213341 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1F029EE714BF6F0F00213341 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PatientCheckin/PatientCheckin-Prefix.pch";
+				INFOPLIST_FILE = "PatientCheckin/PatientCheckin-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1F029EE814BF6F0F00213341 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PatientCheckin/PatientCheckin-Prefix.pch";
+				INFOPLIST_FILE = "PatientCheckin/PatientCheckin-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F029EC814BF6F0F00213341 /* Build configuration list for PBXProject "PatientCheckin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F029EE414BF6F0F00213341 /* Debug */,
+				1F029EE514BF6F0F00213341 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F029EE614BF6F0F00213341 /* Build configuration list for PBXNativeTarget "PatientCheckin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F029EE714BF6F0F00213341 /* Debug */,
+				1F029EE814BF6F0F00213341 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1F029EC514BF6F0F00213341 /* Project object */;
+}
